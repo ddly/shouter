@@ -1,4 +1,10 @@
 class PagesController < ApplicationController
-	def home
+	layout "pages"
+	def pages
 	end
 end
+
+# class PagesController < ApplicationController
+# 	def home
+# 	end
+# end
